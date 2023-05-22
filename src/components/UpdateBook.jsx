@@ -32,7 +32,7 @@ const UpdateBook = () => {
 
   const getBookDetail = async() => {
     const response = await getBook(id);
-    console.log(response);
+    // console.log(response);
     setBook(response.data);
   }
 

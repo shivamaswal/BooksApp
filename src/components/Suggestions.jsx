@@ -3,7 +3,7 @@ import Book from './Book';
 
 import {getBooks} from '../services/api';
 
-const BooksList = () => {
+const Suggestions = () => {
 
   const [books , setBooks] = useState([]);
 
@@ -15,13 +15,10 @@ const BooksList = () => {
     const response = await getBooks();
     setBooks(response.data);
   }
-
-
-  return (
-    <section className='booklist'>
+  return(
       <div className='container'>
         <div className='section-title'>
-          <h2>List of Books Available..</h2>
+          <h2>Trending Books..</h2>
         </div>
         <div className='booklist-content grid'>
           {
@@ -33,8 +30,7 @@ const BooksList = () => {
           }
         </div>
       </div>
-    </section>
-  )  
+  )
 }
 
-export default BooksList
+  export default Suggestions

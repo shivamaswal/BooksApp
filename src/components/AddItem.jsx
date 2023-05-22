@@ -6,7 +6,7 @@ import { addBook } from '../services/api';
 
 const Container = styled(FormGroup)`
 width: 50%;
-margin: 5% auto 0% auto;
+margin: 5% auto 0 auto;
 & > div {
   margin-top : 20px;
 }
@@ -25,9 +25,6 @@ const AddItem = () => {
 
   const [book , setBook] = useState(initalValue);
 
-  const { bookName, authorName, publishDate, isbnNo } = book;
-
-
   const handleChange = (e) => {
   //   console.log(event.target.value, event.target.name);
     setBook({...book,[e.target.name]:e.target.value});
@@ -39,7 +36,7 @@ const AddItem = () => {
   }
 
   return (
-    <Container>
+    <Container sx={{fontSize:'18px'}}>
       <Typography variant='h4'>Add New Book</Typography>
       <FormControl>
         <InputLabel>Book Title</InputLabel>
@@ -56,6 +53,10 @@ const AddItem = () => {
       <FormControl>
         <InputLabel>ISBN Number</InputLabel>
         <Input onChange={(e)=>handleChange(e)} name="isbnNo"/>
+      </FormControl>
+      <FormControl>
+        <InputLabel>CoverPage Image Url</InputLabel>
+        <Input onChange={(e)=>handleChange(e)} name="coverURL"/>
       </FormControl>
       <FormControl>
         <Button variant='text' onClick={()=>handleClick()}>Add Book</Button>

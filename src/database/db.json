@@ -5,13 +5,15 @@
       "authorName": "Khalid Hosseini",
       "publishDate": "May 29, 2003",
       "isbnNo": "1-57322-245-3",
+      "coverURL": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408859919.jpg",
       "id": 1
     },
     {
       "bookName": "The Subtle Art of Not Giving a F*ck",
-      "authorName": "Mark Manson",
+      "authorName": "Mark Mansom",
       "publishDate": "September 13, 2016",
       "isbnNo": "978-0-06-245771-4",
+      "coverURL": "https://imgv2-2-f.scribdassets.com/img/word_document/388995164/original/432x574/368f87afe6/1665131937?v=1",
       "id": 2
     },
     {
@@ -19,6 +21,7 @@
       "authorName": "Amish Tripathi",
       "publishDate": "February 2010",
       "isbnNo": "978-93-80658-74-2",
+      "coverURL": "https://4.imimg.com/data4/CP/YY/GLADMIN-10390523/images-jdbooks-700-22-e5f2b733723d6cd74393e02b46c9bfb2-500x500.jpg",
       "id": 3
     },
     {
@@ -26,6 +29,7 @@
       "authorName": "Robert Kiyosaki",
       "publishDate": "April 1, 2000",
       "isbnNo": "0-446-67745-0",
+      "coverURL": "https://m.media-amazon.com/images/I/51Hfv2MfNGL._SX331_BO1,204,203,200_.jpg",
       "id": 4
     }
   ]
