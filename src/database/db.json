@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "bookName": "The Kite Runner",
+      "authorName": "Khalid Hosseini",
+      "publishDate": "May 29, 2003",
+      "isbnNo": "1-57322-245-3",
+      "id": 1
+    },
+    {
+      "bookName": "The Subtle Art of Not Giving a F*ck",
+      "authorName": "Mark Manson",
+      "publishDate": "September 13, 2016",
+      "isbnNo": "978-0-06-245771-4",
+      "id": 2
+    },
+    {
+      "bookName": "The Immortals of Meluha",
+      "authorName": "Amish Tripathi",
+      "publishDate": "February 2010",
+      "isbnNo": "978-93-80658-74-2",
+      "id": 3
+    },
+    {
+      "bookName": "Rich Dad Poor Dad",
+      "authorName": "Robert Kiyosaki",
+      "publishDate": "April 1, 2000",
+      "isbnNo": "0-446-67745-0",
+      "id": 4
+    }
+  ]
+}
